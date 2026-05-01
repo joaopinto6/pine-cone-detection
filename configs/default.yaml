@@ -1,0 +1,24 @@
+roi:
+  hsv_green_lower: [25, 85, 60]
+  hsv_green_upper: [70, 210, 190]
+  close_kernel: 15
+  dilate_iter: 3
+
+preprocess:
+  tile_size: 640
+  tile_overlap: 0.20
+  canopy_min_ratio: 0.05
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  split_seed: 42
+
+train:
+  epochs: 150
+  imgsz: 640
+  batch: 16
+  device: "0"
+  workers: 8
+  seed: 42
+  run_name: yolov8_finetune
+  project_dir: runs/yolo
