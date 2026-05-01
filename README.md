@@ -42,7 +42,7 @@ To solve the "small object detection gap" (detecting ~20px objects inside 5K res
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pine-cone-detection.git
+git clone https://github.com/joaopinto6/pine-cone-detection.git
 cd pine-cone-detection
 ```
 
